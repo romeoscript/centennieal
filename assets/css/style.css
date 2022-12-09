@@ -1474,7 +1474,7 @@ form label.error { display: none !important; }
   }
   .tpcaption2 h2, .tpcaption3 h2{
     font-size: 50px;
-    color: blue;
+    color: #f7921a;
     text-transform: uppercase;
   }
 
@@ -1483,17 +1483,17 @@ form label.error { display: none !important; }
     color: white;
     border: none;
     border-radius: 10px;
-    background: orange;
+    background: #f7921a;
     cursor: pointer;
   }
   .tpcaption2 span ,.tpcaption3 span{
-    color: orange;
+    color: #f7921a;
   }
   .tpabsolute{
-    background: blue;
+    background: black;
     width: 50%;
     padding: 1rem;
-    opacity: 0.6;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1510,9 +1510,10 @@ form label.error { display: none !important; }
     text-transform: uppercase;
   }
   .connect,.tpbutton{
-    background: yellow;
+    background: #f7921a;
     border-radius: 10px;
     width: 50%;
+    color: white;
     padding: 0.5rem 0;
     opacity: 1!important;
     position: absolute;
@@ -1590,7 +1591,7 @@ form label.error { display: none !important; }
     right: 0;
   }
   .people__image-text:hover{
-    background: orange;
+    background: #f7921a;
   }
   .swiper {
     width: 100%;
@@ -1630,7 +1631,7 @@ form label.error { display: none !important; }
         text-transform: uppercase;
       }
       .tpabsolute{
-        background: blue;
+        background: black;
         width: 90%;
       }
       .swiperjs{
@@ -1644,7 +1645,7 @@ form label.error { display: none !important; }
         text-align: left;
       }
       .connect{
-        background: yellow;
+        background: #f7921a;
         top: -20%;
       }
   }
