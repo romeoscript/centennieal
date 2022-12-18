@@ -1649,3 +1649,498 @@ form label.error { display: none !important; }
         top: -20%;
       }
   }
+
+
+
+  /*================================================
+Boxes Area CSS
+=================================================*/
+.boxes-area {
+  /* margin-top: -180px; */
+  position: relative;
+  z-index: 1;
+}
+
+.single-boxes-box {
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 50px 25px;
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: white;
+  -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.single-boxes-box .icon {
+  background-color: #fae4de;
+  position: relative;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--mainColor);
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single-boxes-box .icon .circles-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-animation-name: rotateme;
+          animation-name: rotateme;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.single-boxes-box .icon .circles-box .circle-one {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  width: 12px;
+  height: 12px;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: var(--mainColor);
+}
+
+.single-boxes-box h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.single-boxes-box .learn-more-btn {
+  margin-top: 10px;
+}
+
+.single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.single-boxes-box:hover .icon .circles-box .circle-two {
+  opacity: 1;
+  visibility: visible;
+}
+
+.col-lg-4:nth-child(2) .single-boxes-box .icon, .col-lg-4:nth-child(8) .single-boxes-box .icon, .col-lg-4:nth-child(14) .single-boxes-box .icon {
+  background-color: #d8d1e8;
+  color: #290390;
+}
+
+.col-lg-4:nth-child(2) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(8) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(14) .single-boxes-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(2) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(8) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(14) .single-boxes-box .icon .circles-box .circle-one {
+  background-color: #290390;
+}
+
+.col-lg-4:nth-child(2) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(8) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(14) .single-boxes-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(2) .single-boxes-box:hover .icon, .col-lg-4:nth-child(8) .single-boxes-box:hover .icon, .col-lg-4:nth-child(14) .single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(3) .single-boxes-box .icon, .col-lg-4:nth-child(9) .single-boxes-box .icon, .col-lg-4:nth-child(15) .single-boxes-box .icon {
+  background-color: #d6ebea;
+  color: #1fa299;
+}
+
+.col-lg-4:nth-child(3) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(9) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(15) .single-boxes-box .icon .circles-box .circle-one {
+  background-color: #1fa299;
+}
+
+.col-lg-4:nth-child(3) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(9) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(15) .single-boxes-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(3) .single-boxes-box:hover .icon, .col-lg-4:nth-child(9) .single-boxes-box:hover .icon, .col-lg-4:nth-child(15) .single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(4) .single-boxes-box .icon, .col-lg-4:nth-child(10) .single-boxes-box .icon, .col-lg-4:nth-child(16) .single-boxes-box .icon {
+  background-color: #f3e3f6;
+  color: #9916b1;
+}
+
+.col-lg-4:nth-child(4) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(10) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(16) .single-boxes-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(4) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(10) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(16) .single-boxes-box .icon .circles-box .circle-one {
+  background-color: #9916b1;
+}
+
+.col-lg-4:nth-child(4) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(10) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(16) .single-boxes-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(4) .single-boxes-box:hover .icon, .col-lg-4:nth-child(10) .single-boxes-box:hover .icon, .col-lg-4:nth-child(16) .single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(5) .single-boxes-box .icon, .col-lg-4:nth-child(11) .single-boxes-box .icon, .col-lg-4:nth-child(17) .single-boxes-box .icon {
+  background-color: #f9e1f0;
+  color: #cb0680;
+}
+
+.col-lg-4:nth-child(5) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(11) .single-boxes-box .icon .circles-box, .col-lg-4:nth-child(17) .single-boxes-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(5) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(11) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(17) .single-boxes-box .icon .circles-box .circle-one {
+  background-color: #cb0680;
+}
+
+.col-lg-4:nth-child(5) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(11) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(17) .single-boxes-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(5) .single-boxes-box:hover .icon, .col-lg-4:nth-child(11) .single-boxes-box:hover .icon, .col-lg-4:nth-child(17) .single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(6) .single-boxes-box .icon, .col-lg-4:nth-child(12) .single-boxes-box .icon, .col-lg-4:nth-child(18) .single-boxes-box .icon {
+  background-color: #e6f5e3;
+  color: #2eb01c;
+}
+
+.col-lg-4:nth-child(6) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(12) .single-boxes-box .icon .circles-box .circle-one, .col-lg-4:nth-child(18) .single-boxes-box .icon .circles-box .circle-one {
+  background-color: #2eb01c;
+}
+
+.col-lg-4:nth-child(6) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(12) .single-boxes-box .icon .circles-box .circle-two, .col-lg-4:nth-child(18) .single-boxes-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(6) .single-boxes-box:hover .icon, .col-lg-4:nth-child(12) .single-boxes-box:hover .icon, .col-lg-4:nth-child(18) .single-boxes-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+/*================================================
+Featured Services Area CSS
+=================================================*/
+.single-featured-services-box {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 50px 25px;
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-featured-services-box .icon {
+  background-color: #fae4de;
+  position: relative;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--mainColor);
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single-featured-services-box .icon .circles-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-animation-name: rotateme;
+          animation-name: rotateme;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.single-featured-services-box .icon .circles-box .circle-one {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  width: 12px;
+  height: 12px;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: var(--mainColor);
+}
+
+.single-featured-services-box .icon .circles-box .circle-two {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 12px;
+  height: 12px;
+  z-index: 1;
+  border-radius: 50%;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  opacity: 0;
+  visibility: hidden;
+  background-color: #1c17a0;
+}
+
+.single-featured-services-box h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.single-featured-services-box .learn-more-btn {
+  margin-top: 10px;
+}
+
+.single-featured-services-box:hover {
+  border-radius: 0;
+  background-color: var(--whiteColor);
+  -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.single-featured-services-box:hover .icon .circles-box .circle-two {
+  opacity: 1;
+  visibility: visible;
+}
+
+.learn-more-btn {
+  text-align: center;
+  display: inline-block;
+  color: var(--mainColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 5px;
+  padding: 9px 25px 9px 55px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.learn-more-btn .left-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 46px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.learn-more-btn .right-icon {
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  opacity: 0;
+  visibility: hidden;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.learn-more-btn:hover {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  padding-left: 25px;
+  padding-right: 55px;
+}
+
+.learn-more-btn:hover .left-icon {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.learn-more-btn:hover .right-icon {
+  color: var(--whiteColor);
+  opacity: 1;
+  visibility: visible;
+}
+
+.col-lg-4:nth-child(2) .single-featured-services-box .icon, .col-lg-4:nth-child(8) .single-featured-services-box .icon, .col-lg-4:nth-child(14) .single-featured-services-box .icon {
+  background-color: #d8d1e8;
+  color: #290390;
+}
+
+.col-lg-4:nth-child(2) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(8) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(14) .single-featured-services-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(2) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(8) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(14) .single-featured-services-box .icon .circles-box .circle-one {
+  background-color: #290390;
+}
+
+.col-lg-4:nth-child(2) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(8) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(14) .single-featured-services-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(2) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(8) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(14) .single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(3) .single-featured-services-box .icon, .col-lg-4:nth-child(9) .single-featured-services-box .icon, .col-lg-4:nth-child(15) .single-featured-services-box .icon {
+  background-color: #d6ebea;
+  color: #1fa299;
+}
+
+.col-lg-4:nth-child(3) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(9) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(15) .single-featured-services-box .icon .circles-box .circle-one {
+  background-color: #1fa299;
+}
+
+.col-lg-4:nth-child(3) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(9) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(15) .single-featured-services-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(3) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(9) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(15) .single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(4) .single-featured-services-box .icon, .col-lg-4:nth-child(10) .single-featured-services-box .icon, .col-lg-4:nth-child(16) .single-featured-services-box .icon {
+  background-color: #f3e3f6;
+  color: #9916b1;
+}
+
+.col-lg-4:nth-child(4) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(10) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(16) .single-featured-services-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(4) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(10) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(16) .single-featured-services-box .icon .circles-box .circle-one {
+  background-color: #9916b1;
+}
+
+.col-lg-4:nth-child(4) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(10) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(16) .single-featured-services-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(4) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(10) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(16) .single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(5) .single-featured-services-box .icon, .col-lg-4:nth-child(11) .single-featured-services-box .icon, .col-lg-4:nth-child(17) .single-featured-services-box .icon {
+  background-color: #f9e1f0;
+  color: #cb0680;
+}
+
+.col-lg-4:nth-child(5) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(11) .single-featured-services-box .icon .circles-box, .col-lg-4:nth-child(17) .single-featured-services-box .icon .circles-box {
+  -webkit-animation-name: rotatemetwo;
+          animation-name: rotatemetwo;
+}
+
+.col-lg-4:nth-child(5) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(11) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(17) .single-featured-services-box .icon .circles-box .circle-one {
+  background-color: #cb0680;
+}
+
+.col-lg-4:nth-child(5) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(11) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(17) .single-featured-services-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(5) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(11) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(17) .single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+.col-lg-4:nth-child(6) .single-featured-services-box .icon, .col-lg-4:nth-child(12) .single-featured-services-box .icon, .col-lg-4:nth-child(18) .single-featured-services-box .icon {
+  background-color: #e6f5e3;
+  color: #2eb01c;
+}
+
+.col-lg-4:nth-child(6) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(12) .single-featured-services-box .icon .circles-box .circle-one, .col-lg-4:nth-child(18) .single-featured-services-box .icon .circles-box .circle-one {
+  background-color: #2eb01c;
+}
+
+.col-lg-4:nth-child(6) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(12) .single-featured-services-box .icon .circles-box .circle-two, .col-lg-4:nth-child(18) .single-featured-services-box .icon .circles-box .circle-two {
+  background-color: var(--mainColor);
+}
+
+.col-lg-4:nth-child(6) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(12) .single-featured-services-box:hover .icon, .col-lg-4:nth-child(18) .single-featured-services-box:hover .icon {
+  background-color: var(--whiteColor);
+}
+
+@-webkit-keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotatemetwo {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotatemetwo {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+.alt{
+  width: 60%;
+}
