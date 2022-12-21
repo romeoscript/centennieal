@@ -1656,7 +1656,7 @@ form label.error { display: none !important; }
 Boxes Area CSS
 =================================================*/
 .boxes-area {
-  background: #0f152b;
+  background: #0f152b!important;
   /* margin-top: -180px; */
   position: relative;
   z-index: 1;
